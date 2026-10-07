@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/miCampoTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/btn_click_me"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_click_me" />
+
+    <Button
+        android:id="@+id/btn_web"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="Te llevo a una web" />
+
+    <Button
+        android:id="@+id/btn_Llamada"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="LLama a un numero" />
+
+    <Button
+        android:id="@+id/btn_camara"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="Abro la camara" />
+
+    <Button
+        android:id="@+id/buttonToast"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="Toast" />
+
+    <Button
+        android:id="@+id/btonPrueba"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btnCCyan"
+        android:layout_width="150sp"
+
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFF"
+        android:text="Cyan"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnCTurquesa"
+        android:layout_width="150sp"
+
+        android:layout_height="wrap_content"
+        android:backgroundTint="#40E0D0"
+        android:text="Turquesa"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
